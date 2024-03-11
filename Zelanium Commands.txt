@@ -1,0 +1,10 @@
+docker run --rm -ti --name zalenium -p 4444:4444 -v /var/run/docker.sock:/var/run/docker.sock -v /c/Users/dev/temp/videos:/Users/dev/temp/videos --privileged dosel/zalenium start --desiredContainers 4
+
+http://localhost:4444/dashboard/#
+
+http://localhost:4444/grid/admin/live
+
+docker exec -it zalenium bash ====> to enter into containers command prompt
+ 
+
+docker stop $(docker ps -q)  ====> it will take all the container IDs in the variable and will stop them

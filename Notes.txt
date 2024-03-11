@@ -1,0 +1,4 @@
+Volume : a voulme is a shared memory by the host
+
+4444:4444 both ports are exposed to the selenium hub
+one port is exposed to us and the other port is exposed to our code. 

@@ -1,0 +1,1 @@
+docker run -d -p 4444:4444 -p 7900:7900 -v /dev/shm:/dev/shm selenium/standalone-chrome:latest ====> to run selenium standalone image with VNC viewer

@@ -1,0 +1,5 @@
+To check usgae:
+netstat -ano | findstr "8080"
+
+To kill task with specific PID
+taskkill /F /PID 5800

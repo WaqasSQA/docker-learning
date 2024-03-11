@@ -1,0 +1,4 @@
+docker run -p 8080:8080 -p 50000:50000 -v C:/Users/dev/Desktop/selenium_jenkins/seleniumjenkins:/var/jenkins_home -d jenkins/jenkins
+
+
+docker run -p 8080:8080 --name=jenkins-master -v C:/Users/dev/Desktop/selenium_jenkins/seleniumjenkins:/var/jenkins_home -d jenkins/jenkins
